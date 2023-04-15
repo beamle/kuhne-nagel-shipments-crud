@@ -1,3 +1,4 @@
-# Data is fetched from .txt document
-# You need to install MUI
-# You need to install react-icons or fontAwesome KIT
+# This is React application. 
+## Data is fetched from .txt document
+## Material UI used as a main UI component
+
