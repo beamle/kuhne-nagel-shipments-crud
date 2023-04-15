@@ -80,7 +80,7 @@ const ShipmentsDetail = ({value, updateShipmentData}) => {
                                 <Typography variant='subtitle2' sx={{mb: 1}}>status</Typography>
                                 <TextField inputProps={{style: {color: 'grey'}}} sx={{backgroundColor: '#e7e9ea'}} fullWidth onChange={(e) => setStatus(e.target.value)} defaultValue={value.status}/>
                             </Grid>
-                            <Button onClick={() => updateStore() }> Update store </Button>
+                            <Button sx={{ m: 2}} variant="contained" onClick={() => updateStore() }> Update store </Button>
                         </Grid>
                     </Box>
                 </DialogContent>
